@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import { NoteFormValues } from "@/components/NoteForm/NoteForm";
+import { NoteFormValues } from "@/types/note";
 
 
 
