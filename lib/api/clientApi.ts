@@ -1,6 +1,6 @@
 
 import type { Note, NoteTag } from '../../types/note';
-import  {NoteFormValues} from '../../components/NoteForm/NoteForm';
+import  {NoteFormValues} from "@/types/note"
 import { User } from '@/types/user';
 import { nextServer } from './api';
 
@@ -10,12 +10,7 @@ export interface LoginData {
   password: string;
 }
 
-export interface FetchNotesParams {
-  page?: number;
-  perPage?: number;
-  search?: string;
-  tag?: string;
-}
+
 
  export interface FetchNotesProps{
     notes: Note[];

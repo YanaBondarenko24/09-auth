@@ -3,7 +3,7 @@ import { nextServer } from "@/lib/api/api";
 import { cookies } from 'next/headers';
 import type { Note,NoteTag } from "@/types/note";
 import type { User } from "@/types/user";
-import { FetchNotesProps,FetchNotesParams } from "./clientApi";
+import { FetchNotesProps} from "./clientApi";
 
 const getServerHeaders = async () => {
   const cookieStore = await cookies();

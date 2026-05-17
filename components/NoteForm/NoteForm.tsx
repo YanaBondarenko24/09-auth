@@ -11,11 +11,7 @@ import { useNoteDraftStore } from '@/lib/store/noteStore';
 
 
 
-export interface NoteFormValues {
-  title: string;
-  content: string;
-  tag: NoteTag;
-}
+
 
 
 
