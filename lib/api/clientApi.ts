@@ -33,6 +33,7 @@ export async function fetchNotes(query:string, page:number,tag?:NoteTag ) {
     console.log(res.data);
     return res.data;
 }
+
 export async function fetchNoteById (id:string) {
   const res = await nextServer.get<Note>(`/notes/${id}`
   )
